@@ -17,3 +17,5 @@ icon_size = 20
 st_button('twitter', 'https://twitter.com/arpitDi3496', 'Twitter', icon_size)
 st_button('linkedin', 'https://www.linkedin.com/in/arpit-dutt-dixit-59b631121/', 'LinkedIn', icon_size)
 st_button('leetcode', 'https://leetcode.com/arpitdixitc23/', 'Leetcode Profile', icon_size)
+st_button('codeforces', 'https://codeforces.com/profile/ashwathamaa', 'Codeforces Profile', icon_size)
+st_button('codechef', 'https://www.codechef.com/users/arpit121', 'Codechef Profile', icon_size)
