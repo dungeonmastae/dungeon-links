@@ -14,6 +14,6 @@ st.info('Senior At Sir MVIT , Competitive Programmer, Developer and full time Da
 icon_size = 20
 
 st_button('medium', 'https://data-professor.medium.com/', 'Read my Blogs', icon_size)
-st_button('twitter', 'https://twitter.com/thedataprof/', 'Follow me on Twitter', icon_size)
-st_button('linkedin', 'https://www.linkedin.com/in/arpit-dutt-dixit-59b631121/', 'Follow me on LinkedIn', icon_size)
-st_button('newsletter', 'https://sendfox.com/dataprofessor/', 'Sign up for my Newsletter', icon_size)
+st_button('twitter', 'https://twitter.com/thedataprof/', 'Twitter', icon_size)
+st_button('linkedin', 'https://www.linkedin.com/in/arpit-dutt-dixit-59b631121/', 'LinkedIn', icon_size)
+st_button('leetcode', 'https://leetcode.com/arpitdixitc23/', 'Leetcode Profile', icon_size)
