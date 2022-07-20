@@ -6,7 +6,7 @@
 
 # Demo app
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://chanin.streamlitapp.com/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://dungeonmastae-dungeon-links-streamlit-app-0ilz7e.streamlitapp.com/)
 
 # Setting up
 
