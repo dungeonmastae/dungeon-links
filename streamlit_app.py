@@ -9,7 +9,7 @@ col2.image(Image.open('dp.png'))
 
 st.header('Arpit Dutt Dixit, CS.')
 
-st.info('Developer Advocate, Content Creator and ex-Professor with an interest in Data Science and Bioinformatics')
+st.info('Senior At Sir MVIT , Competitive Programmer, Developer and full time Data Enthusiast')
 
 icon_size = 20
 
