@@ -53,7 +53,7 @@ def st_button(icon, url, label, iconsize):
                 {label}
             </a>
         </p>'''
-    elif icon == 'leetcode':
+    elif icon == 'leetcode' or icon == 'codechef' or icon == 'codeforces':
         button_code = f'''
         <p>
             <a href={url} class="btn btn-outline-primary btn-lg btn-block" type="button" aria-pressed="true">
