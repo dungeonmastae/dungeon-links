@@ -26,7 +26,7 @@ def st_button(icon, url, label, iconsize):
                 {label}
             </a>
         </p>''' 
-        </p>'''
+      
     elif icon == '':
         button_code = f'''
         <p>
