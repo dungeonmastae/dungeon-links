@@ -26,25 +26,6 @@ def st_button(icon, url, label, iconsize):
 #                 {label}
 #             </a>
 #         </p>''' 
-    elif icon == 'medium':
-        button_code = f'''
-        <p>
-            <a href={url} class="btn btn-outline-primary btn-lg btn-block" type="button" aria-pressed="true">
-                <svg xmlns="http://www.w3.org/2000/svg" width={iconsize} height={iconsize} fill="currentColor" class="bi bi-medium" viewBox="0 0 16 16">
-                    <path d="M9.025 8c0 2.485-2.02 4.5-4.513 4.5A4.506 4.506 0 0 1 0 8c0-2.486 2.02-4.5 4.512-4.5A4.506 4.506 0 0 1 9.025 8zm4.95 0c0 2.34-1.01 4.236-2.256 4.236-1.246 0-2.256-1.897-2.256-4.236 0-2.34 1.01-4.236 2.256-4.236 1.246 0 2.256 1.897 2.256 4.236zM16 8c0 2.096-.355 3.795-.794 3.795-.438 0-.793-1.7-.793-3.795 0-2.096.355-3.795.794-3.795.438 0 .793 1.699.793 3.795z"/>
-                </svg>
-                {label}
-            </a>
-        </p>'''
-    elif icon == 'newsletter':
-        button_code = f'''
-        <p>
-            <a href={url} class="btn btn-outline-primary btn-lg btn-block" type="button" aria-pressed="true">
-                <svg xmlns="https://leetcode.com/arpitdixitc23/" width={iconsize} height={iconsize} fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
-                </svg>
-                {label}
-            </a>
         </p>'''
     elif icon == '':
         button_code = f'''
@@ -53,8 +34,6 @@ def st_button(icon, url, label, iconsize):
                 {label}
             </a>
         </p>'''
-        
-       
         
     elif icon == 'codeforces':
         button_code = f'''
@@ -91,4 +70,4 @@ def st_button(icon, url, label, iconsize):
                 {label}
         </p>'''
        
-    return st.markdown(button_code, unsafe_allow_html=True)
+     return st.markdown(button_code, unsafe_allow_html=True)
