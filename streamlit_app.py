@@ -9,7 +9,7 @@ col2.image(Image.open('sJyjnYUx_400x400.png'))
 
 st.header('Arpit Dutt Dixit, CS.')
 
-st.info('Senior At Sir MVIT , Competitive Programmer, Developer and full time ML Enthusiast')
+st.info('Senior At Sir MVIT , Competitive Programmer, Developer and full time Machine Learning Enthusiast')
 
 icon_size = 20
 
